@@ -1,0 +1,64 @@
+h1{
+    height: 70px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    color: rgb(52, 200, 219);
+    font-size: 20px;
+}
+
+p{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    
+}
+#rightColumn{
+    display:flex;
+    flex:2;
+    flex-direction: column;   
+}
+.userBox{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;  
+    margin: 20px; 
+    justify-content: space-evenly;
+    height: 200px;
+}
+img{
+    height: 150px;
+}
+.userData{
+    display: flex;
+    justify-content: space-around;
+}
+.likesButton{
+    align-self: center;
+    color: white;
+    background-color: #fada24;
+    border-style: solid;
+    box-shadow: 2px 2px 2px black;   
+    width: 100px;
+    height:30px; 
+}
+#avatar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+    flex: 1;
+    border-style: solid;
+    margin: 20px 0;
+}
